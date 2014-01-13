@@ -1,4 +1,4 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed');\n
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
  *
