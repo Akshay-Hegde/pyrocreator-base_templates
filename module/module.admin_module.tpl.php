@@ -37,7 +37,7 @@ class Admin_{MODULE_NAME} extends Admin_Controller
             $this->streams->cp->entries_table(
                   $this->section,
                   $this->module,
-                  Settings:get('records_per_page'),
+                  Settings::get('records_per_page'),
                   'admin/'.$this->section.'/index',
                   true,
                   $extra
