@@ -9,11 +9,11 @@ class Plugin_{MODULE_NAME} extends Plugin
       public $version = '1.0.0';
 
       public $name = array(
-            'en' => '',
+            'en' => '{MODULE_NAME}',
       );
 
       public $description = array(
-            'en' => '',
+            'en' => '{MODULE_DESCRIPTION}',
       );
 
       /**
