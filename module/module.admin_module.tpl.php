@@ -38,7 +38,7 @@ class Admin_{MODULE_NAME} extends Admin_Controller
                   $this->section,
                   $this->module,
                   Settings::get('records_per_page'),
-                  'admin/'.$this->section.'/index',
+                  'admin/'.$this->module.'/'.$this->section.'/index',
                   true,
                   $extra
             );
